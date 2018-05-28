@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Wikipedia entries in a search box and see the resulting Wikipedia entries.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+<h1>Wikipedia Viewer App</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <input id="query" class="form-control" type="text" placeholder="What do you want to search...">
+        </div>
+        <div class="col-6">
+            <button id="search" class="btn btn-outline-primary">Wikipedia Search</button>
+            <button id="random" class="btn btn-outline-primary">I'm Feeling Lucky</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <ul class="result-box" id="result"></ul>
+</div>
+</body>
+<script src="js/jquery-2.2.4.min.js"></script>
+<!--<script src="js/app.js"></script>-->
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
